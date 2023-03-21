@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
 * print_times_table - prints the n times table, starting with 0
 * starting from 0
-* @n:the value of the time table 
+* @n:the value of the time table
 */
 void print_times_table(int n)
 {
@@ -33,7 +32,6 @@ _putchar((prod / 10) + '0');
 }
 _putchar((prod % 10) + '0');
 }
-_putchar('\n');
 }
 }
 }
